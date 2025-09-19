@@ -1,18 +1,18 @@
-# 🧠 Proyecto: Predicción de Alzheimer
+# Proyecto: Predicción de Alzheimer
 
 Este repositorio contiene el desarrollo de un proyecto de Machine Learning para predecir la presencia de la enfermedad de Alzheimer en pacientes, a partir de datos clínicos, demográficos y de estilo de vida.
 
 ---
 
-## 📂 Contenido del repositorio
+## Contenido del repositorio
 
 * `alzheimers_disease_data.csv`: Dataset con información de pacientes, incluye variables clínicas, hábitos de vida y resultados de pruebas cognitivas.
-* `desarrollo.ipynb`: Notebook con el análisis exploratorio de datos (EDA), limpieza, preprocesamiento y pruebas iniciales de modelos de Machine Learning.
+* `desarrollo.ipynb`: Notebook con el análisis exploratorio de datos (EDA), limpieza, preprocesamiento y pruebas  de modelos de Machine Learning.
 * `README.md`: Documento con la descripción general del proyecto, su estructura y objetivos.
 
 ---
 
-## 🎯 Objetivo del proyecto
+## Objetivo del proyecto
 
 El propósito de este proyecto es desarrollar un modelo de Machine Learning capaz de predecir el diagnóstico de Alzheimer en pacientes. A partir de características clínicas y de estilo de vida, se busca:
 
@@ -24,31 +24,32 @@ Este trabajo pretende servir como apoyo en la investigación de enfermedades neu
 
 ---
 
-## ⚙️ Tecnologías utilizadas
+## Tecnologías utilizadas
 
 * **Lenguaje:** Python
 * **Bibliotecas principales:**
 
-  * `pandas`, `numpy` → Manipulación y análisis de datos.
-  * `matplotlib`, `seaborn` → Visualización de datos.
-  * `scikit-learn` → Modelado y evaluación de algoritmos de Machine Learning.
-  * `tensorflow`, `keras` → Construcción y entrenamiento de modelos de Deep Learning.
+  * `pandas`, `numpy` para manipulación y análisis de datos.
+  * `matplotlib`, `seaborn` para visualización de datos.
+  * `scikit-learn` para modelado y evaluación de algoritmos de Machine Learning.
+  * `tensorflow`, `keras` para construcción y entrenamiento de modelos de Deep Learning.
+  * `imblearn` para generación de muestra artificial
 
 ---
 
-## 🚀 Cómo ejecutar el proyecto
+## Cómo ejecutar el proyecto
 
 1. Clonar el repositorio:
 
    ```bash
    git clone <url-del-repositorio>
    ```
-2. Abrir y ejecutar el notebook `desarrollo.ipynb`.
+2. Abrir y ejecutar el notebook `desarrollo.ipynb` paso a paso.
 3. Explorar el dataset `alzheimers_disease_data.csv` y seguir los pasos del flujo de trabajo en el notebook.
 
 ---
 
-## 👨‍💻 Autores
+## Autores
 
  * Agustín Figueroa
  * Estebán Álvarez
