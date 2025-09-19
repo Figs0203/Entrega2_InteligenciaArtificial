@@ -20,6 +20,8 @@ El propósito de este proyecto es desarrollar un modelo de Machine Learning capa
 * Construir modelos que permitan detectar la enfermedad de forma temprana.
 * Evaluar la calidad y precisión de distintos algoritmos de clasificación.
 
+Este trabajo pretende servir como apoyo en la investigación de enfermedades neurodegenerativas y como base para sistemas de apoyo al diagnóstico clínico.
+
 ---
 
 ## ⚙️ Tecnologías utilizadas
@@ -30,6 +32,7 @@ El propósito de este proyecto es desarrollar un modelo de Machine Learning capa
   * `pandas`, `numpy` → Manipulación y análisis de datos.
   * `matplotlib`, `seaborn` → Visualización de datos.
   * `scikit-learn` → Modelado y evaluación de algoritmos de Machine Learning.
+  * `tensorflow`, `keras` → Construcción y entrenamiento de modelos de Deep Learning.
 
 ---
 
