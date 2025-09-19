@@ -50,8 +50,8 @@ Este trabajo pretende servir como apoyo en la investigación de enfermedades neu
 
 ## 👨‍💻 Autores
 
-Agustín Figueroa
-Estebán Álvarez
-Alejandro Sepúlveda
+ * Agustín Figueroa
+ * Estebán Álvarez
+ * Alejandro Sepúlveda
 
 Estudiantes de Ingeniería de Sistemas - Universidad EAFIT
