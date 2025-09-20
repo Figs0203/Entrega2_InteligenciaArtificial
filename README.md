@@ -20,7 +20,19 @@ El propósito de este proyecto es desarrollar un modelo de Machine Learning capa
 * Construir modelos que permitan detectar la enfermedad de forma temprana.
 * Evaluar la calidad y precisión de distintos algoritmos de clasificación.
 
-Este trabajo pretende servir como apoyo en la investigación de enfermedades neurodegenerativas y como base para sistemas de apoyo al diagnóstico clínico.
+---
+
+## Hallazgos del Análisis Exploratorio (EDA)
+
+En el notebook `desarrollo.ipynb` se realizó un análisis exploratorio para entender la distribución de los datos y las relaciones entre las variables. A continuación se describen algunos de los diagramas y hallazgos clave que se podrían documentar:
+
+*   **Distribución de Diagnósticos:** Un gráfico de barras para visualizar la proporción de pacientes en cada categoría de diagnóstico (ej. No Dementes, Dementes Leves, etc.). Esto es crucial para identificar el desbalance de clases.
+
+*   **Correlación entre Variables Numéricas:** Un mapa de calor (heatmap) que muestre la correlación de Pearson entre variables como `Age`, `MMSE` (Mini-Mental State Examination), `EducationLevel`, etc. Ayuda a identificar multicolinealidad y variables predictivas importantes.
+
+*   **Distribución de Características por Diagnóstico:** Diagramas de caja (boxplots) o de violín para comparar la distribución de variables numéricas clave (como `Age` o `MMSE`) entre los diferentes grupos de diagnóstico. Permiten observar si existen diferencias significativas entre los grupos.
+
+*   **Análisis de Variables Categóricas:** Gráficos de barras para analizar la relación entre variables categóricas (como `Gender`, `Smoking`, `AlcoholConsumption`) y el diagnóstico.
 
 ---
 
